@@ -15,7 +15,8 @@
 		9A2DF59A1CD9F56C0041B08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2DF5981CD9F56C0041B08C /* LaunchScreen.storyboard */; };
 		9A2DF5AF1CDA00EC0041B08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2DF5AE1CDA00EC0041B08C /* Main.storyboard */; };
 		9A2DF5B51CDA03130041B08C /* ColorImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2DF5B41CDA03130041B08C /* ColorImageViewController.m */; };
-		9A2DF5B81CDA037F0041B08C /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2DF5B71CDA037F0041B08C /* UIImage+Color.m */; };
+		9AFFA7701CDB524F008307F8 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFA76F1CDB524F008307F8 /* UIImage+Color.m */; };
+		9AFFA7731CDB5305008307F8 /* NSDate+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFA7721CDB5305008307F8 /* NSDate+Extend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +35,10 @@
 		9A2DF5AE1CDA00EC0041B08C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9A2DF5B31CDA03130041B08C /* ColorImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorImageViewController.h; sourceTree = "<group>"; };
 		9A2DF5B41CDA03130041B08C /* ColorImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorImageViewController.m; sourceTree = "<group>"; };
-		9A2DF5B61CDA037F0041B08C /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
-		9A2DF5B71CDA037F0041B08C /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		9AFFA76E1CDB524F008307F8 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		9AFFA76F1CDB524F008307F8 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		9AFFA7711CDB5305008307F8 /* NSDate+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extend.h"; sourceTree = "<group>"; };
+		9AFFA7721CDB5305008307F8 /* NSDate+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extend.m"; sourceTree = "<group>"; };
 		AFCE172381F642DC45D60B4B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,8 +109,9 @@
 		9A2DF5A51CD9FB100041B08C /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				9A2DF5B61CDA037F0041B08C /* UIImage+Color.h */,
-				9A2DF5B71CDA037F0041B08C /* UIImage+Color.m */,
+				9AFFA76D1CDB5185008307F8 /* LibContorl */,
+				9AFFA76B1CDB5153008307F8 /* NSObject */,
+				9AFFA76C1CDB5175008307F8 /* UIContorl */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -145,6 +149,31 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9AFFA76B1CDB5153008307F8 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				9AFFA7711CDB5305008307F8 /* NSDate+Extend.h */,
+				9AFFA7721CDB5305008307F8 /* NSDate+Extend.m */,
+				9AFFA76E1CDB524F008307F8 /* UIImage+Color.h */,
+				9AFFA76F1CDB524F008307F8 /* UIImage+Color.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		9AFFA76C1CDB5175008307F8 /* UIContorl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIContorl;
+			sourceTree = "<group>";
+		};
+		9AFFA76D1CDB5185008307F8 /* LibContorl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LibContorl;
 			sourceTree = "<group>";
 		};
 		CFE94187C302BB5054893AB3 /* Pods */ = {
@@ -287,7 +316,8 @@
 			files = (
 				9A2DF5951CD9F56C0041B08C /* ZXKit.xcdatamodeld in Sources */,
 				9A2DF58C1CD9F56C0041B08C /* AppDelegate.m in Sources */,
-				9A2DF5B81CDA037F0041B08C /* UIImage+Color.m in Sources */,
+				9AFFA7731CDB5305008307F8 /* NSDate+Extend.m in Sources */,
+				9AFFA7701CDB524F008307F8 /* UIImage+Color.m in Sources */,
 				9A2DF5B51CDA03130041B08C /* ColorImageViewController.m in Sources */,
 				9A2DF5891CD9F56C0041B08C /* main.m in Sources */,
 			);

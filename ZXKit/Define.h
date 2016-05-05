@@ -9,6 +9,15 @@
 #ifndef Define_h
 #define Define_h
 
+#pragma mark - 日志输出 ---------------------------------------------------------------------------------------
+
+//重新定义系统的NSLog,__OPTIMIZE__ 是release 默认会加的宏,release模式不打印日志
+#ifndef __OPTIMIZE__
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...){}
+#endif
+
 #pragma mark - 系统UI宽高 ---------------------------------------------------------------------------------------
 
 #define kScreenWidth  [UIScreen mainScreen].bounds.size.width
