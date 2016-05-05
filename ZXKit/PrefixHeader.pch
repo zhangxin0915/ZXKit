@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  ZXKit
+//
+//  Created by macmini on 16/5/4.
+//  Copyright © 2016年 mac. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Define.h"
+
+
+
+#endif
+
