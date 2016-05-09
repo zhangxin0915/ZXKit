@@ -15,6 +15,7 @@
 		9A2DF59A1CD9F56C0041B08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2DF5981CD9F56C0041B08C /* LaunchScreen.storyboard */; };
 		9A2DF5AF1CDA00EC0041B08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2DF5AE1CDA00EC0041B08C /* Main.storyboard */; };
 		9A2DF5B51CDA03130041B08C /* ColorImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2DF5B41CDA03130041B08C /* ColorImageViewController.m */; };
+		9A8C04621CE07C50003AFCB1 /* KTKeyChainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C04611CE07C50003AFCB1 /* KTKeyChainHelper.m */; };
 		9AFFA7701CDB524F008307F8 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFA76F1CDB524F008307F8 /* UIImage+Color.m */; };
 		9AFFA7731CDB5305008307F8 /* NSDate+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFA7721CDB5305008307F8 /* NSDate+Extend.m */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,8 @@
 		9A2DF5AE1CDA00EC0041B08C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9A2DF5B31CDA03130041B08C /* ColorImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorImageViewController.h; sourceTree = "<group>"; };
 		9A2DF5B41CDA03130041B08C /* ColorImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorImageViewController.m; sourceTree = "<group>"; };
+		9A8C04601CE07C50003AFCB1 /* KTKeyChainHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKeyChainHelper.h; sourceTree = "<group>"; };
+		9A8C04611CE07C50003AFCB1 /* KTKeyChainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTKeyChainHelper.m; sourceTree = "<group>"; };
 		9AFFA76E1CDB524F008307F8 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		9AFFA76F1CDB524F008307F8 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		9AFFA7711CDB5305008307F8 /* NSDate+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extend.h"; sourceTree = "<group>"; };
@@ -101,6 +104,7 @@
 		9A2DF5A41CD9F5BD0041B08C /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				9A8C045F1CE07C4F003AFCB1 /* KTKeyChainHelper */,
 				9A2DF5A51CD9FB100041B08C /* Category */,
 			);
 			path = Library;
@@ -149,6 +153,15 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9A8C045F1CE07C4F003AFCB1 /* KTKeyChainHelper */ = {
+			isa = PBXGroup;
+			children = (
+				9A8C04601CE07C50003AFCB1 /* KTKeyChainHelper.h */,
+				9A8C04611CE07C50003AFCB1 /* KTKeyChainHelper.m */,
+			);
+			path = KTKeyChainHelper;
 			sourceTree = "<group>";
 		};
 		9AFFA76B1CDB5153008307F8 /* NSObject */ = {
@@ -315,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A2DF5951CD9F56C0041B08C /* ZXKit.xcdatamodeld in Sources */,
+				9A8C04621CE07C50003AFCB1 /* KTKeyChainHelper.m in Sources */,
 				9A2DF58C1CD9F56C0041B08C /* AppDelegate.m in Sources */,
 				9AFFA7731CDB5305008307F8 /* NSDate+Extend.m in Sources */,
 				9AFFA7701CDB524F008307F8 /* UIImage+Color.m in Sources */,

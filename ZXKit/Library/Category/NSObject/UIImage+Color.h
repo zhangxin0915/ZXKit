@@ -10,8 +10,7 @@
 
 @interface UIImage (Color)
 
-/**
- * @brief 颜色转换成图片(image)
+/**@brief 颜色转换成图片(image)
  *
  * @param  color 颜色
  *
